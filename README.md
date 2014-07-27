@@ -1,13 +1,16 @@
 This project basically focuses on the Object Oriented Programming methods along with Client-Server Model which has been implemeted wit Java RMI.
- 
+Use case and System Design of the ATM system can be accessed from the following links
+i) https://drive.google.com/file/d/0B1QILPrMzktbTUJDZ3ZzamgzRXM/edit?usp=sharing
+ii) https://drive.google.com/file/d/0B1QILPrMzktbYXpadTYzcElpZGs/edit?usp=sharing
+
 Points To Note regarding the project:
 1) Below are the steps for successfully running the project:
-i) This project requires Java RMI, so 1st step is to include the jre bin path to environment variable.
-ii) Compile and add the server registry and then run the bank project by following the below steps:
+   i) This project requires Java RMI, so 1st step is to include the jre bin path to environment variable.
+   ii) Compile and add the server registry and then run the bank project by following the below steps:
     javac RmiServer.java
 	rmic RmiServer.java
 	java RmiServer
-iii) Now, in the new command line window run the client which will interact with the bank
+   iii) Now, in the new command line window run the client which will interact with the bank
      javac ATMMain.java
 	 java ATMMain
 Now, it will give you the interface something like the ATM Machine gives. :)
